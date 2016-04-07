@@ -15,6 +15,10 @@
 		D41070DA1CB331370088B977 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D41070D81CB331370088B977 /* LaunchScreen.storyboard */; };
 		D41070E51CB331370088B977 /* TesteDiligeiroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41070E41CB331370088B977 /* TesteDiligeiroTests.swift */; };
 		D41070F01CB331380088B977 /* TesteDiligeiroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41070EF1CB331380088B977 /* TesteDiligeiroUITests.swift */; };
+		D43E74091CB58C6700DDD1FF /* MinhasDiligenciasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E74081CB58C6700DDD1FF /* MinhasDiligenciasTableViewController.swift */; };
+		D43E740D1CB5B04500DDD1FF /* CelulaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E740C1CB5B04500DDD1FF /* CelulaTableViewCell.swift */; };
+		D4B767021CB5C0FB0035E99F /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B767011CB5C0FB0035E99F /* SwiftyJSON.framework */; };
+		D4B767041CB5CCBE0035E99F /* InfosDiligencia.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B767031CB5CCBE0035E99F /* InfosDiligencia.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		D41070EB1CB331370088B977 /* TesteDiligeiroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TesteDiligeiroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D41070EF1CB331380088B977 /* TesteDiligeiroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesteDiligeiroUITests.swift; sourceTree = "<group>"; };
 		D41070F11CB331380088B977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D43E74081CB58C6700DDD1FF /* MinhasDiligenciasTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinhasDiligenciasTableViewController.swift; sourceTree = "<group>"; };
+		D43E740C1CB5B04500DDD1FF /* CelulaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CelulaTableViewCell.swift; sourceTree = "<group>"; };
+		D4B767011CB5C0FB0035E99F /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/TesteDiligeiro-fwmsiakjtwizfgdcmlfnlaealesu/Build/Products/Debug-iphonesimulator/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		D4B767031CB5CCBE0035E99F /* InfosDiligencia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfosDiligencia.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4B767021CB5C0FB0035E99F /* SwiftyJSON.framework in Frameworks */,
 				A2DCA4712F0CC269CB227FFD /* Pods_TesteDiligeiro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -91,6 +100,7 @@
 		4037E8DFAD8D44327E476CAA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D4B767011CB5C0FB0035E99F /* SwiftyJSON.framework */,
 				0EB188146A256178E8BF6D8A /* Pods_TesteDiligeiro.framework */,
 			);
 			name = Frameworks;
@@ -127,6 +137,9 @@
 				D41070D61CB331370088B977 /* Assets.xcassets */,
 				D41070D81CB331370088B977 /* LaunchScreen.storyboard */,
 				D41070DB1CB331370088B977 /* Info.plist */,
+				D43E74081CB58C6700DDD1FF /* MinhasDiligenciasTableViewController.swift */,
+				D43E740C1CB5B04500DDD1FF /* CelulaTableViewCell.swift */,
+				D4B767031CB5CCBE0035E99F /* InfosDiligencia.swift */,
 			);
 			path = TesteDiligeiro;
 			sourceTree = "<group>";
@@ -332,7 +345,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D41070D21CB331370088B977 /* ViewController.swift in Sources */,
+				D43E740D1CB5B04500DDD1FF /* CelulaTableViewCell.swift in Sources */,
+				D43E74091CB58C6700DDD1FF /* MinhasDiligenciasTableViewController.swift in Sources */,
 				D41070D01CB331370088B977 /* AppDelegate.swift in Sources */,
+				D4B767041CB5CCBE0035E99F /* InfosDiligencia.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +492,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TesteDiligeiro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Miciano.TesteDiligeiro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -488,6 +505,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TesteDiligeiro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Miciano.TesteDiligeiro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
